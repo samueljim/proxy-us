@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "name": "proxy-us",
+    "public": false,
+    "alias": ["us.samueljim.com"],
+    "github": {
+        "autoAlias": true
+    },
+    "regions": ["sfo1"],
+    "routes": [
+        { "src": "*", "dest": "/api" }
+    ]
+}
